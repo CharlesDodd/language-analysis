@@ -1,5 +1,5 @@
 # language-analysis
-A quick experiment in the 'repetitiveness' of a language.
+A quick experiment in the 'repetitiveness' of a language. Inspired by https://inventwithpython.com/cracking/ and their implimentation of the Kasiski method.
 
 Kasiski examination is a method used to crack the Vigenère cipher by looking for repetivive character sequences. For example, in English short words such as 'and' appear frequently, so do other three character squences like ' I '. There is more than one way to get around this vulnerability :
   Use a one time pad.
