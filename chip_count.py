@@ -3,12 +3,6 @@ import matplotlib.pyplot as plt
 
 text = open('my_name_is_masha_rus.txt', encoding = 'utf-8', mode = 'r').read()
 
-d = {}
-for i in range(10):
-    if cipher_lang[i] in d.keys():
-        d[cipher_lang[i]].append(i)
-    else:
-        d[cipher_lang[i]] = [i]
 
 
 def repeated_chip_places(lang, chip_size):
